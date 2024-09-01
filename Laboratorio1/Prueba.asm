@@ -17,3 +17,7 @@ adc num1H, num2H
 
 loop: jmp loop
 
+ldi num1L, 0x34
+ldi num1H, 0x12
+ldi num2L, 0xCD
+ldi num2H, 0xAB
